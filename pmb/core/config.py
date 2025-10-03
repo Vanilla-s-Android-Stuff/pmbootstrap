@@ -67,11 +67,11 @@ class Config:
     locale: str = "en_US.UTF-8"
     mirrors: ClassVar[Mirrors] = {
         "alpine_custom": "none",
-        "alpine": "http://dl-cdn.alpinelinux.org/alpine/",
+        "alpine": "http://mirror.iscas.ac.cn/alpine/",
         "pmaports_custom": "none",
-        "pmaports": "http://mirror.postmarketos.org/postmarketos/",
+        "pmaports": "http://mirror.iscas.ac.cn/postmarketOS/",
         "systemd_custom": "none",
-        "systemd": "http://mirror.postmarketos.org/postmarketos/extra-repos/systemd/",
+        "systemd": "http://mirror.iscas.ac.cn/postmarketOS/extra-repos/systemd/",
     }
     qemu_redir_stdio: bool = False
     ssh_key_glob: str = "~/.ssh/*.pub"
